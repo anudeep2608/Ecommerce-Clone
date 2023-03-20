@@ -1,16 +1,32 @@
 A mock project of popular ecommerce site OLX.
 
-Team:-
-
-1. V.Anudeep Sai(19cs01008)
-2. A.Jyothi Kiran Reddy(19cs01017)
-3. N.Pavan Kumar(19cs01006)
-
 Technologies used:-
 
 Database: MySQL
 Front-end: HTML, CSS, JavaScript and EJS.
 Back-end: Node, express.
+
+Usage:
+
+1. Install NodeJS in your local machine.
+2. Open this project folder in your favorite IDE(preferred: vscode).
+3. Install npm packages mentioned in package.json
+	npm install
+4. Setup MySQL in your local machine and create a database by name lab_project.
+	change username password in index.js below
+	const connection = mysql.createConnection({
+    		host: 'localhost',
+    		user: 'root',
+    		password: '',
+    		database: 'lab_project'
+	});
+5. In the database run the db.sql file present in the project folder.
+	run schema and procedures seperately
+6. Hence Node modules are installed and database is setup.
+7. Open the terminal in project directory and run index.js file.
+	node index.js
+8. Hurray the webiste started in local machine on PORT 3000.
+9. Now the site is yours to play.
 
 Features:-
 
@@ -74,26 +90,6 @@ Selling:
 4. History:-
    1. All the previous orders placed for the products listed by the user are listed here.
 
-Usage:
 
-1. Install NodeJS in your local machine.
-2. Open this project folder in your favorite IDE(preferred: vscode).
-3. Install npm packages mentioned in package.json
-	npm install
-4. Setup MySQL in your local machine and create a database by name lab_project.
-	change username password in index.js below
-	const connection = mysql.createConnection({
-    		host: 'localhost',
-    		user: 'root',
-    		password: '',
-    		database: 'lab_project'
-	});
-5. In the database run the db.sql file present in the project folder.
-	run schema and procedures seperately
-6. Hence Node modules are installed and database is setup.
-7. Open the terminal in project directory and run index.js file.
-	node index.js
-8. Hurray the webiste started in local machine on PORT 3000.
-9. Now the site is yours to play.
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
